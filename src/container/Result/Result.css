@@ -1,0 +1,95 @@
+.result {
+  display: flex;
+  flex: 1;
+  border: 1px solid grey;
+  margin: 40px;
+  height: 80%;
+  flex-direction: column;
+}
+
+.add-score {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.445);
+}
+
+.add-score p {
+  height: 4vh;
+  margin: 0;
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.result-modal {
+  display: flex;
+  flex-direction: column;
+  overflow-x: scroll;
+}
+
+.result-input {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.players-fullname {
+  margin-right: 10px;
+}
+
+.players-game-score {
+  display: flex;
+}
+
+.ant-modal-body {
+  height: 200px;
+}
+
+.players-score-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.result-modal-player-input {
+  width: 180px;
+  padding-left: 10px;
+  margin-bottom: 3px;
+}
+
+.number-of-sets {
+  margin-bottom: 20px;
+}
+
+.number-of-sets-input {
+  width: 63px;
+}
+
+.player-one {
+  overflow-x: scroll;
+}
+
+.player-two {
+  overflow-x: scroll;
+}
+
+.games-input {
+  width: 50px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+
+.show-score {
+  margin-top: 2px;
+  /* height: 58vh; */
+  height: 100%;
+  /* border: 1px solid red; */
+  overflow-y: scroll;
+}
+
+/* .show-score-result { */
+/* height: 8vh; */
+/* height: 11vh;
+  border: 1px solid black;
+  margin-bottom: 0.6vh;
+  margin-left: 0.5vh; */
+/* } */

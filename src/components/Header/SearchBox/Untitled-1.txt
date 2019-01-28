@@ -1,0 +1,9 @@
+Bug #profli
+Request URL: https://api-mis.stg.mobileguardian.com/api/users/me/image?id=760
+Request Method: GET
+
+Payload: id=760 {dskaoldkaspdaksdksadsadd}
+
+Response:
+{"error":{"code":"MG-MISSING","http_code":404,"message":"Resource Not Found"}}
+____________________________________________________________________________________________

@@ -1,0 +1,67 @@
+/* .login-page {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.Login {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  padding: 50px 0px 0px 50px;
+  background: url("../../Assets/tableTennisBackground.jpg") no-repeat center
+    center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Title {
+  font-family: my-font, "Roboto", sans-serif;
+  position: relative;
+  font-size: 40px;
+  color: rgb(92, 89, 98);
+  margin: 0 auto;
+}
+.form-login {
+  margin-right: 5%;
+  margin-bottom: 10%;
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
+  box-sizing: border-box;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(27, 27, 27, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  display: flex;
+  flex-direction: column;
+}
+.form-login button {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: rgb(255, 255, 255);
+  width: 80%;
+  border: 0;
+  margin: 5% auto;
+  color: rgb(1, 1, 1);
+  font-weight: 900;
+  font-size: 18px;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+form.form-login hr {
+  margin-top: 2rem !important;
+}
+.form-login button:hover {
+  cursor: pointer;
+}
+
+.login-text {
+  padding: 5px;
+  color: #5e5862;
+  font-size: 16px;
+}

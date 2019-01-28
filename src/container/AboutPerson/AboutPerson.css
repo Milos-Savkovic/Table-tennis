@@ -1,0 +1,42 @@
+.main {
+  /* width: 170px;
+    height: 300px; */
+  /* width: 14vw; */
+
+  /* width: 18vw; */
+  width: 20%;
+  /* width je 16vw prije mijenjanja izgleda stranice */
+  /* height: 45vh; */
+  height: 100%;
+  border-right: 1px solid gray;
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.avatar-logo {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.divider {
+  margin: 10px;
+}
+
+.ant-menu-vertical {
+  border-right: none;
+}
+
+.user-image {
+  max-height: 200px;
+}
+
+/* .sign-out-button {
+  height: 
+} */
+
